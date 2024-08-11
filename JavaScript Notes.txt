@@ -1,0 +1,35 @@
+How to create variable :
+1) var 
+2) let    
+3) const    2,3 are from 2015 version  
+
+===> Hoisting is the default behaviour of javascript where all the variable and function declarations are moved on top.
+
+===> The keyword 'Var' has a function scope. Anywhere in the function, the variable specified using var is accessible but in ‘let’ the scope of a variable declared with the 'let' keyword is limited to the block in which it is declared. Let's start with a Block Scope.
+
+===> OR ( | | ) operator - If the first value is truthy, then the first value is returned. Otherwise, always the second value gets returned.
+
+===> AND ( && ) operator - If both the values are truthy, always the second value is returned. If the first value is falsy then the first value is returned or if the second value is falsy then the second value is returned.
+
+
+DataTypes in JavaScript:
+
+1) Primitive 		2) Special			3) Composite	
+a) Number		a) Undefined			a) Array []
+b) String		b) Null				b) Object {}
+c) Boolean
+
+console.log() is used by the developers at developing purpose and debugging purpose.
+console.info() is used for displaying in the console
+
+DOM = Document Object Model 
+It contains Properties and Methods.
+1) Methods to select HTML Elements are:
+	i) document.getElementById("idname")
+	ii) document.getElementsByClassName("classname")
+	iii) document.getElementsByTagName("tagname")
+	iv) document.querySelector(".class/#id/tagname")
+	v) document.querySelectorAll(".class/#id/tagname")
+2) Properties to select HTML Elements
+	i) document.(body/head/title/anchors/forms/images/scripts)
+

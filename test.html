@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Example</title>
+    <style>
+        /* Basic styling */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 15px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hover effect */
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+/* Responsive design */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .logo {
+        order: -1;
+    }
+}
+    </style>
+    
+</head>
+<body>
+    <nav class="navbar">
+    <nav class="navbar">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">Your Logo</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="file:///D:/Html&CSS/LoginPage.html">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Location</a></li>
+            </ul>
+        </nav>
+    </nav>
+    </nav>
+    <!-- Other content of your web page -->
+    <script>
+        // JavaScript for dropdown functionality
+const navLinks = document.querySelector('.nav-links');
+const burgerMenu = document.querySelector('.burger-menu');
+
+burgerMenu.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
+
+    </script>
+
+</body>
+</html>

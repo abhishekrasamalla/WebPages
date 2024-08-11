@@ -1,0 +1,93 @@
+!Doctype is used for which version is of the HTML.
+
+=>___<head> tag is used for the extra information of the document for browser.This tag represents above the search bar.
+
+=>____<mata> is used for Search Engine Optimization.
+
+=>____<body> tag is used for the actual data for showing user.
+
+1px = 0.2cm.
+
+<pre> tag is used when we want the same space given while writing a para in html.
+
+ENTITIES:
+
+	&ndsp; is for single space.
+
+	&emsp; is for one tab space.
+	
+	<xmp></xmp> is for what ever we write in btwn them will be shown ie.with tags also. 
+
+Types of Lists: 1) Ordered Lists         <ol> <li></li> </ol>
+                2) Unordered Lists       <ul> <li></li> </ul>                              
+                3) Discriptionalists     <dl> <dt>Term1 <dd> Def of Term 1</dd> </dt> </dl> 
+ 
+Example of Discriptionalist tag is:
+ Google: 
+	It is search engine.
+	It is productbased company.
+
+TABLE CREATION: 
+
+<table border = " 2" style = "border-collapse:collapse" cellpadding = "5" cellspacing = "1" align = "center"> 
+<tr> 
+<th> Roll No </th>
+<th> Students </th>
+<th> Address </th>
+</tr>
+<tr> 
+<td> 01 </td>
+<td> Ravi </td>
+<td> Korutla </td>
+</tr>
+<tr> 
+
+
+=>____Block Level Elements = elememts which start at the new line even though there is space beside the previous one.because block level emements occupy the total webpage width of the screen in the line (Ex: h1,h2,h3...<p>).
+
+=>____Inline Elements = start in the same line (<a>)
+
+=>____<form> <input type ="name"> </form>
+
+<select> <option> English </option>
+	<option> Telugu </option>
+	<option> Hindi </option>
+</select>
+
+
+ATTRIBUTES OF FORM TAG(<FORM>):
+	1) action
+	2) method  (used for security purpose ie.data will not be stored in url ex:- method="post")
+	3) target
+	4) name
+
+
+ATTRIBUTES OF AUDIO TAG(<audio>): <audio> <source src= "path"></audio>
+	1) controls
+	2) loop
+	3) muted
+	4) autoplay
+	5) preload
+
+An <iframe> (short for inline frame) in HTML is used to embed another HTML document within the current document. It allows you to display content from another source or website within your webpage
+<iframe src="URL"></iframe>
+
+The <span> element is an inline-level container used to apply styles or manipulate individual pieces of text or inline elements within a larger block of content.
+
+The <div> element is a block-level container used to group and structure larger sections of content or elements within an HTML document.
+
+
+Container Tags:
+
+Container tags are HTML elements that can contain other elements and text content.
+They have both opening and closing tags, and the content is placed between these tags.
+Examples of container tags include <div>, <p>, <span>, <ul>, <ol>, <table>, <section>, <article>, etc.
+
+
+Empty Tags (Self-closing Tags):
+
+Empty tags, also known as self-closing tags, are HTML elements that do not have any content and do not require a closing tag.
+They are written as a single tag with a slash before the closing angle bracket, like <tag />.
+Empty tags are used for elements that do not contain content but may have attributes.
+Examples of empty tags include <img>, <br>, <hr>, <input>, <meta>, <link>, etc.
+
